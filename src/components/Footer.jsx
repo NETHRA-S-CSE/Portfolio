@@ -1,17 +1,16 @@
-function Footer()
-{
+function Footer() {
     return (
-        <>
-        <footer>
-            <p>Portfolio of Nethra S</p>
-            <h3>Contact :</h3>
-            <ul>
-                <li>Email: s.nethra2024cse@sece.ac.in</li>
-                <li>Phone: +91 72000 16353</li>
-                <li>Linkedin : </li>
-            </ul>
+        <footer className="portfolio-footer">
+            <div className="container footer-wrap">
+                <p>© {new Date().getFullYear()} Nethra S. All rights reserved.</p>
+                <div className="footer-links">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="mailto:s.nethra2024cse@sece.ac.in">Email</a>
+                </div>
+            </div>
         </footer>
-        </>
     )
 }
-export default Footer;
+
+export default Footer
