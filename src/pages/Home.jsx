@@ -1,13 +1,14 @@
 function Home() {
 	return (
-		<main>
+		<main id="main-content">
 			<section id="home" className="section hero">
 				<div className="container">
-					<p className="eyebrow">Aspiring Machine Learning &amp; Generative AI Engineer | Data Analytics Enthusiast</p>
+					<p className="eyebrow">Aspiring Software Engineer | Machine Learning & Generative AI Enthusiast</p>
 					<h1>Nethra S</h1>
 					<p className="lead">
-						I build intelligent systems using Machine Learning and data-driven approaches. Passionate about solving real-world
-						problems through AI and continuously improving my technical skills.
+						
+
+I am a Computer Science student focused on building strong problem-solving skills and exploring Machine Learning through hands-on projects. I aim to develop scalable software systems and intelligent applications.
 					</p>
 					<div className="quick-links">
 						<a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
