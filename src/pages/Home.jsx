@@ -3,21 +3,31 @@ function Home() {
 		<main id="main-content">
 			<section id="home" className="section hero">
 				<div className="container">
-					<p className="eyebrow">Aspiring Software Engineer | Machine Learning & Generative AI Enthusiast</p>
-					<h1>Nethra S</h1>
-					<p className="lead">
-						
+					<div className="hero-content">
+						<div className="hero-text">
+							<p className="eyebrow">Aspiring Software Engineer | Machine Learning & Generative AI Enthusiast</p>
+							<h1>Nethra S</h1>
+							<p className="lead">
 
 I am a Computer Science student focused on building strong problem-solving skills and exploring Machine Learning through hands-on projects. I aim to develop scalable software systems and intelligent applications.
-					</p>
-					<div className="quick-links">
-						<a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
-						<a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a>
-						<a href="#">Resume (Google Drive PDF)</a>
-					</div>
-					<div className="actions">
-						<a href="#projects" className="btn primary">View Projects</a>
-						<a href="#contact" className="btn secondary">Contact Me</a>
+							</p>
+							<div className="quick-links">
+								<a href="https://github.com/NETHRA-S-CSE" target="_blank" rel="noreferrer">GitHub</a>
+								<a href="https://www.linkedin.com/in/nethra-s-a13396311/" target="_blank" rel="noreferrer">LinkedIn</a>
+								<a href="https://drive.google.com/file/d/1HR8OlTQVdzDy56d9AtOyi5ooWoe-Eko-/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+							</div>
+							<div className="actions">
+								<a href="#projects" className="btn primary">View Projects</a>
+								<a href="#contact" className="btn secondary">Contact Me</a>
+							</div>
+						</div>
+						<div className="hero-image-wrap" aria-hidden="true">
+							<img
+								className="hero-image"
+								src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=80"
+								alt=""
+							/>
+						</div>
 					</div>
 				</div>
 			</section>
