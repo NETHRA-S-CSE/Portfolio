@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 const navItems = [
-    { id: 'about', label: 'About' },
+    { id: 'home', label: 'About' },
     { id: 'education', label: 'Education' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
@@ -10,7 +10,7 @@ const navItems = [
 ]
 
 function Header() {
-    const [activeSection, setActiveSection] = useState('about')
+    const [activeSection, setActiveSection] = useState('home')
 
     useEffect(() => {
         const observer = new IntersectionObserver(
