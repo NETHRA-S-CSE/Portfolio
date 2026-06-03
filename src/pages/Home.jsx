@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import nethraImg from "../../NethraImg.jpg";
 
+
 function Home() {
 	useEffect(() => {
 		const revealNodes = document.querySelectorAll("[data-reveal]");
@@ -25,14 +26,14 @@ function Home() {
 				<div className="hero-layout">
 					<div className="hero-content" data-reveal>
 						<div className="hero-text-block">
-							<p className="eyebrow">Aspiring Software Engineer | Machine Learning & Generative AI Enthusiast</p>
+							<p className="eyebrow">Aspiring AI Engineer | Generative AI Enthusiast</p>
 							<h1>Nethra S</h1>
-							<p className="lead">Computer Science student focused on problem solving and building scalable applications. Exploring Machine Learning through hands-on projects.</p>
-							<p className="hero-proof">Solved 150+ problems on LeetCode | Built full-stack applications</p>
+							<p className="lead">Computer Science student focused on problem solving and building scalable applications. Exploring Machine Learning and AI Agents through hands-on projects.</p>
+							<p className="hero-proof">Solved 150+ problems on LeetCode </p>
 							<div className="quick-links">
 								<a href="https://github.com/NETHRA-S-CSE" target="_blank" rel="noreferrer">GitHub</a>
 								<a href="https://www.linkedin.com/in/nethra-s-a13396311/" target="_blank" rel="noreferrer">LinkedIn</a>
-								<a href="https://drive.google.com/file/d/1HR8OlTQVdzDy56d9AtOyi5ooWoe-Eko-/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+								<a href="https://drive.google.com/file/d/1r2Jv-GWmWPIDajQKYW4Y3vuvXksoc3RE/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
 							</div>
 							<div className="actions">
 								<a href="#projects" className="btn primary">View Projects</a>
@@ -151,7 +152,19 @@ function Home() {
 								and visualized insights from education-related trends.
 							</p>
 							<p className="project-link">
-								<a href="https://github.com/yourusername/sentiment-analysis" target="_blank" rel="noreferrer">Project Link</a>
+								<a href="https://github.com/NarensGit/sentiment-analysis" target="_blank" rel="noreferrer">Project Link</a>
+							</p>
+							</div>
+						</article>
+						<article className="project-row left">
+							<div className="project-body">
+							<h3>SECE PlaceHub - Placement Management Platform</h3>
+							<p className="project-tech"><strong>Tech Stack:</strong> MERN </p>
+							<p>
+								Building a centralized placement portal using MERN stack to streamline manual workflows.Developed frontend for student profile, resume upload, and dashboard UI.
+							</p>
+							<p className="project-link">
+								<a href="https://sece-placehub.vercel.app/" target="_blank" rel="noreferrer">Project Link</a>
 							</p>
 							</div>
 						</article>
@@ -168,27 +181,15 @@ function Home() {
 							</p>
 							</div>
 						</article>
-						<article className="project-row left">
-							<div className="project-body">
-							<h3>ElectSphere – Online Voting System</h3>
-							<p className="project-tech"><strong>Tech Stack:</strong> Python, Django, MongoDB, HTML, CSS</p>
-							<p>
-								Developed a secure online voting platform, ensured one-person-one-vote logic,
-								and stored voter data and results securely using MongoDB.
-							</p>
-							<p className="project-link">
-								<a href="https://github.com/yourusername/electsphere" target="_blank" rel="noreferrer">Project Link</a>
-							</p>
-							</div>
-						</article>
+						
 						<article className="project-row right">
 							<div className="project-body">
 							<h3>Current Focus</h3>
 							<ul className="stack-list">
-								<li>Deepening knowledge in Machine Learning</li>
+								<li>Deepening knowledge in Agentic AI</li>
 								<li>Exploring Generative AI and NLP</li>
 								<li>Building real-world AI projects</li>
-								<li>Preparing for internships</li>
+								<li>Looking for internships</li>
 							</ul>
 							</div>
 						</article>
@@ -227,21 +228,21 @@ function Home() {
 					<div className="profiles-list">
 						<article className="profile-item">
 							<h3>LeetCode</h3>
-							<p><a href="https://leetcode.com/yourusername" target="_blank" rel="noreferrer">leetcode.com/yourusername</a></p>
-							<p>150+ problems solved | Contest Rank: 1455</p>
+							<p><a href="https://leetcode.com/u/NETHRA_S_CSE/" target="_blank" rel="noreferrer">Profile Link</a></p>
+							<p>150+ problems solved | Contest Rank: 1516</p>
 						</article>
 						<article className="profile-item">
 							<h3>CodeChef</h3>
-							<p><a href="https://codechef.com/users/yourusername" target="_blank" rel="noreferrer">codechef.com/users/yourusername</a></p>
-							<p>140+ problems solved | Rating: 1001</p>
+							<p><a href="https://www.codechef.com/users/nethra_s" target="_blank" rel="noreferrer">Profile Link</a></p>
+							<p>140+ problems solved | Rating: 1077</p>
 						</article>
 						<article className="profile-item">
 							<h3>HackerRank</h3>
-							<p><a href="https://hackerrank.com/yourusername" target="_blank" rel="noreferrer">hackerrank.com/yourusername</a></p>
+							<p><a href="https://www.hackerrank.com/profile/Nethra_S" target="_blank" rel="noreferrer">Profile Link</a></p>
 						</article>
 						<article className="profile-item">
 							<h3>SkillRack</h3>
-							<p><a href="https://skillrack.com/profile/yourusername" target="_blank" rel="noreferrer">skillrack.com/profile/yourusername</a></p>
+							<p><a href="https://www.skillrack.com/faces/resume.xhtml?id=515008&key=b1ad6d80808eaff8847a173502f857a2907409b1" target="_blank" rel="noreferrer">Profile Link</a></p>
 							<p>1200+ problems | 444 Bronze Medals</p>
 						</article>
 					</div>
@@ -255,10 +256,10 @@ function Home() {
 						<p>Email: <a href="mailto:s.nethra2024cse@sece.ac.in">s.nethra2024cse@sece.ac.in</a></p>
 						<p>Phone: <a href="tel:+917200016353">7200016353</a></p>
 						<p>
-							LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">linkedin.com/in/yourprofile</a>
+							LinkedIn: <a href="https://www.linkedin.com/in/nethra-s-a13396311/" target="_blank" rel="noreferrer">Profile Link </a>
 						</p>
 						<p>
-							GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">github.com/yourusername</a>
+							GitHub: <a href="https://github.com/NETHRA-S-CSE" target="_blank" rel="noreferrer">Profile Link </a>
 						</p>
 					</div>
 				</div>
