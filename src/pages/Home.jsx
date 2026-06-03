@@ -168,7 +168,7 @@ function Home() {
 							</p>
 							</div>
 						</article>
-						<article className="project-row right">
+						<article className="project-row left">
 							<div className="project-body">
 							<h3>Document Version Tracker</h3>
 							<p className="project-tech"><strong>Tech Stack:</strong> Java, Spring Boot, HTML, CSS</p>
@@ -182,7 +182,7 @@ function Home() {
 							</div>
 						</article>
 						
-						<article className="project-row right">
+						<article className="project-row left">
 							<div className="project-body">
 							<h3>Current Focus</h3>
 							<ul className="stack-list">
